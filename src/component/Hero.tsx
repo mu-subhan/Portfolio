@@ -19,7 +19,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-gray-900 dark:text-white">
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
               Muhammad Subhan
             </span>

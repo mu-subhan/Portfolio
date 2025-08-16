@@ -1,6 +1,6 @@
 'use client';
 
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, , FaEnvelope } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
   const socialLinks = [
     { icon: <FaGithub />, url: 'https://github.com/mu-subhan' },
     { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/muhammad-subhan-321821231/' },
-    // { icon: <FaTwitter />, url: 'https://twitter.com/yourhandle' },
+    // { icon: <FaTwitter />, url: 'https://twitter.com/yourhandle' }, FaTwitter
     { icon: <FaEnvelope />, url: 'mailto:muhammadsubhan8934@.com' },
   ];
 
