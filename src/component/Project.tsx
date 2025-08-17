@@ -36,8 +36,8 @@ const projects = [
 ];
 
 export default function Projects() {
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
-
+  const [ref] = useInView({ triggerOnce: true, threshold: 0.1 });
+// inView
   return (
     <section id="projects" ref={ref} className="py-20 bg-gradient-to-b from-white dark:from-gray-900">
       <div className="container mx-auto px-6 max-w-7xl">

@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  FaJsSquare, FaNodeJs, FaHtml5, FaCss3Alt, FaDatabase,
+  FaJsSquare, FaNodeJs, FaHtml5, FaCss3Alt,
   FaReact,
 } from 'react-icons/fa';
 import {
@@ -50,6 +50,8 @@ const skillCategories = [
     skills: [
       { name: 'MongoDB', icon: <SiMongodb className="text-green-700 text-2xl" /> },
       { name: 'MySQL', icon: <SiMysql className="text-blue-700 text-2xl" /> },
+      { name: 'SQL', icon: <SiMysql className="text-cyan-400 text-2xl" /> },
+
     ],
   },
 ];
