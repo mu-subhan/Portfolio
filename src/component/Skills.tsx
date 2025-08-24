@@ -2,12 +2,13 @@
 
 import { motion } from 'framer-motion';
 import {
-  FaJsSquare, FaNodeJs, FaHtml5, FaCss3Alt, FaReact, FaAws, FaDocker, FaGitAlt
+  FaJsSquare, FaNodeJs, FaHtml5, FaReact, FaGitAlt
 } from 'react-icons/fa';
 import {
   SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiMysql, SiPostgresql,
-  SiExpress, SiCplusplus, SiFramer, SiShadcnui, SiRedis, SiGraphql, SiJest,
-  SiKubernetes, SiLinux
+  SiExpress, SiCplusplus, SiFramer, SiRedis, SiGraphql, SiLinux,
+  SiVercel,
+  SiRender
 } from 'react-icons/si';
 
 const skills = [
@@ -87,13 +88,6 @@ const skills = [
     years: '2+'
   },
   { 
-    name: 'GraphQL', 
-    icon: <SiGraphql className="text-pink-600" />, 
-    category: 'Backend & APIs',
-    proficiency: 75,
-    years: '1+'
-  },
-  { 
     name: 'REST APIs', 
     icon: <FaNodeJs className="text-blue-500" />, 
     category: 'Backend & APIs',
@@ -128,37 +122,25 @@ const skills = [
     icon: <SiRedis className="text-red-600" />, 
     category: 'Database & Storage',
     proficiency: 80,
-    years: '1+'
+   
   },
 
   // Cloud & DevOps
-  { 
-    name: 'AWS', 
-    icon: <FaAws className="text-orange-500" />, 
-    category: 'Cloud & DevOps',
-    proficiency: 80,
-    years: '1+'
-  },
-  { 
-    name: 'Docker', 
-    icon: <FaDocker className="text-blue-500" />, 
-    category: 'Cloud & DevOps',
-    proficiency: 82,
-    years: '1+'
-  },
+  { name: 'Vercel', icon: <SiVercel className="text-black" />, category: 'Cloud & DevOps', proficiency: 90 },
+  { name: 'Render', icon: <SiRender className="text-blue-500" />, category: 'Cloud & DevOps', proficiency: 85 },
   { 
     name: 'Git', 
     icon: <FaGitAlt className="text-orange-600" />, 
     category: 'Cloud & DevOps',
     proficiency: 90,
-    years: '3+'
+   
   },
   { 
     name: 'Linux', 
     icon: <SiLinux className="text-yellow-600" />, 
     category: 'Cloud & DevOps',
     proficiency: 85,
-    years: '2+'
+   
   },
 ];
 
@@ -221,7 +203,7 @@ export default function Skills() {
     visible: {
       opacity: 1,
       scale: 1,
-      transition: { duration: 0.4, ease: "easeOut" }
+      transition: { duration: 0.4, ease: "easeOut" as const }
     }
   };
 
@@ -277,7 +259,7 @@ export default function Skills() {
           viewport={{ once: true, margin: "-50px" }}
           className="space-y-16"
         >
-          {categories.map((category, categoryIndex) => {
+          {categories.map((category) => {
             const categorySkills = skills.filter(skill => skill.category === category.name);
             
             return (
@@ -325,9 +307,7 @@ export default function Skills() {
                         <h3 className="text-sm font-bold text-slate-900 mb-1">
                           {skill.name}
                         </h3>
-                        <div className="text-xs text-slate-500">
-                          {skill.years} experience
-                        </div>
+                       
                       </div>
 
                       {/* Proficiency Bar */}
@@ -354,7 +334,7 @@ export default function Skills() {
         </motion.div>
 
         {/* Skills Summary */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -377,7 +357,7 @@ export default function Skills() {
               <div className="text-sm text-slate-300">Projects Built</div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

@@ -22,7 +22,6 @@ export default function ProjectCard({
   imageUrl, 
   type,
   highlights,
-  index 
 }: ProjectCardProps) {
   return (
     <motion.div
