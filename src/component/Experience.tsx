@@ -35,18 +35,18 @@ const experiences = [
     duration: 'June 2023 – March 2024',
     location: 'Hybrid',
     status: 'Long-term',
-    description: 'Developed comprehensive Hospital Management System (HMS) components, focusing on scalable frontend architecture and seamless user experiences.',
+    description: 'Developed comprehensive Hotel Management System (HMS) components, focusing on scalable frontend architecture and seamless user experiences.',
     responsibilities: [
-      'Engineered responsive React.js components for complex healthcare workflows',
+      'Engineered responsive React.js components for complex hotel workflows',
       'Built full-stack applications using Next.js with server-side rendering optimization',
-      'Implemented MongoDB database schemas for efficient healthcare data management',
-      'Collaborated on live production applications serving real healthcare institutions',
+      'Implemented MongoDB database schemas for efficient hotel data management',
+      'Collaborated on live production applications serving real hotel institutions',
       'Enhanced MERN stack expertise through hands-on enterprise application development'
     ],
-    technologies: ['React.js', 'Next.js', 'Node.js', 'MongoDB', 'Express.js', 'Healthcare Systems'],
+    technologies: ['React.js', 'Next.js', 'Node.js', 'MongoDB', 'Express.js', 'ShadCN'],
     achievements: [
-      'Delivered 15+ responsive frontend components for HMS platform',
-      'Contributed to live applications used by healthcare professionals',
+      'Delivered 7+ responsive frontend components for HMS platform',
+      'Contributed to live applications used by hotel professionals',
       'Mastered full-stack development in production environment'
     ],
     color: 'from-green-500 to-green-600',
@@ -68,7 +68,7 @@ const experiences = [
       'Collaborated in cross-functional teams on complex technical challenges',
       'Participated in competitive hackathon environment with industry professionals'
     ],
-    technologies: ['AI/ML', 'React.js', 'Python', 'TensorFlow', 'MERN Stack', 'Component Libraries'],
+    technologies: ['AI/ML', 'React.js', 'Node.js', 'MERN Stack', 'Component Libraries'],
     achievements: [
       ' Achieved 3rd place in competitive hackathon among 100+ participants',
       'Successfully integrated ML models with React frontend applications',

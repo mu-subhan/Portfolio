@@ -6,7 +6,7 @@ import {
 } from 'react-icons/fa';
 import {
   SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiMysql, SiPostgresql,
-  SiExpress, SiCplusplus, SiFramer, SiRedis, SiGraphql, SiLinux,
+  SiExpress, SiCplusplus, SiFramer, SiRedis, SiLinux,
   SiVercel,
   SiRender
 } from 'react-icons/si';
@@ -17,29 +17,29 @@ const skills = [
     name: 'JavaScript', 
     icon: <FaJsSquare className="text-yellow-500" />, 
     category: 'Core Technologies',
-    proficiency: 95,
-    years: '3+'
+    proficiency: 75,
+    
   },
   { 
     name: 'TypeScript', 
     icon: <SiTypescript className="text-blue-600" />, 
     category: 'Core Technologies',
-    proficiency: 90,
-    years: '2+'
+    proficiency: 65,
+   
   },
   { 
     name: 'C++', 
     icon: <SiCplusplus className="text-blue-500" />, 
     category: 'Core Technologies',
-    proficiency: 85,
-    years: '2+'
+    proficiency: 75,
+   
   },
   { 
     name: 'HTML5', 
     icon: <FaHtml5 className="text-orange-600" />, 
     category: 'Core Technologies',
     proficiency: 95,
-    years: '3+'
+    
   },
 
   // Frontend Development
@@ -47,29 +47,28 @@ const skills = [
     name: 'React.js', 
     icon: <FaReact className="text-cyan-400" />, 
     category: 'Frontend Development',
-    proficiency: 92,
-    years: '2+'
+    proficiency: 82,
+   
   },
   { 
     name: 'Next.js', 
     icon: <SiNextdotjs className="text-slate-900" />, 
     category: 'Frontend Development',
-    proficiency: 90,
-    years: '2+'
+    proficiency: 80,
+   
   },
   { 
     name: 'Tailwind CSS', 
     icon: <SiTailwindcss className="text-sky-400" />, 
     category: 'Frontend Development',
-    proficiency: 95,
-    years: '2+'
+    proficiency: 85,
+   
   },
   { 
     name: 'Framer Motion', 
     icon: <SiFramer className="text-pink-500" />, 
     category: 'Frontend Development',
-    proficiency: 85,
-    years: '1+'
+    proficiency: 75,
   },
 
   // Backend & APIs
@@ -77,22 +76,22 @@ const skills = [
     name: 'Node.js', 
     icon: <FaNodeJs className="text-green-600" />, 
     category: 'Backend & APIs',
-    proficiency: 90,
-    years: '2+'
+    proficiency: 80,
+   
   },
   { 
     name: 'Express.js', 
     icon: <SiExpress className="text-slate-800" />, 
     category: 'Backend & APIs',
-    proficiency: 88,
-    years: '2+'
+    proficiency: 68,
+   
   },
   { 
     name: 'REST APIs', 
     icon: <FaNodeJs className="text-blue-500" />, 
     category: 'Backend & APIs',
-    proficiency: 92,
-    years: '2+'
+    proficiency: 80,
+   
   },
 
   // Database & Storage
@@ -100,28 +99,28 @@ const skills = [
     name: 'MongoDB', 
     icon: <SiMongodb className="text-green-700" />, 
     category: 'Database & Storage',
-    proficiency: 90,
-    years: '2+'
+    proficiency: 80,
+   
   },
   { 
     name: 'PostgreSQL', 
     icon: <SiPostgresql className="text-blue-700" />, 
     category: 'Database & Storage',
-    proficiency: 85,
+    proficiency: 75,
     years: '1+'
   },
   { 
     name: 'MySQL', 
     icon: <SiMysql className="text-blue-700" />, 
     category: 'Database & Storage',
-    proficiency: 88,
-    years: '2+'
+    proficiency: 68,
+   
   },
   { 
     name: 'Redis', 
     icon: <SiRedis className="text-red-600" />, 
     category: 'Database & Storage',
-    proficiency: 80,
+    proficiency: 60,
    
   },
 
@@ -269,8 +268,8 @@ export default function Skills() {
                 className="space-y-8"
               >
                 {/* Category Header */}
-                <div className="flex flex-col md:flex-row md:items-center gap-4">
-                  <div className={`inline-flex items-center px-6 py-3 rounded-xl text-base font-semibold border ${category.color}`}>
+                <div className="flex flex-col md:flex-row md:items-center gap-2">
+                  <div className={`inline-flex items-center px-2 py-3 rounded-xl text-base font-semibold border ${category.color}`}>
                     <span className="mr-3 text-lg">{category.icon}</span>
                     {category.name}
                   </div>
@@ -290,7 +289,7 @@ export default function Skills() {
                       variants={skillVariants}
                       whileHover={{ y: -8, scale: 1.02 }}
                       transition={{ type: "spring", stiffness: 300, damping: 30 }}
-                      className="group relative bg-slate-50 hover:bg-white rounded-2xl border border-slate-200 hover:border-slate-300 p-6 hover:shadow-lg transition-all duration-300"
+                      className="group relative hover:bg-white rounded-2xl  hover:border-slate-300 hover:shadow-lg transition-all duration-300"
                     >
                       {/* Proficiency Indicator */}
                       <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">

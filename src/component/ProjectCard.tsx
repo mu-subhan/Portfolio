@@ -8,6 +8,7 @@ interface ProjectCardProps {
   description: string;
   tags: string[];
   link: string;
+  githubLink: string;
   imageUrl: string;
   type: string;
   highlights: string[];
@@ -19,6 +20,7 @@ export default function ProjectCard({
   description, 
   tags, 
   link, 
+  githubLink,
   imageUrl, 
   type,
   highlights,
@@ -123,14 +125,17 @@ export default function ProjectCard({
           </motion.a>
 
           {/* Additional action - GitHub link would go here if available */}
-          <motion.button
+          <motion.a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="p-2 text-slate-400 hover:text-slate-600 transition-colors rounded-lg hover:bg-slate-50"
             title="Source code"
           >
             <FiGithub size={16} />
-          </motion.button>
+          </motion.a>
         </div>
       </div>
 

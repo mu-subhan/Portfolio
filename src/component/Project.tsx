@@ -6,18 +6,20 @@ const projects = [
   {
     title: "AI-Powered Volunteer Matching System",
     description: "Enterprise-grade matching platform leveraging machine learning algorithms to optimize volunteer-role assignments. Built with microservices architecture, featuring real-time analytics dashboard and automated performance optimization.",
-    tags: ["React", "Node.js", "MySQL", "Machine Learning", "Docker", "AWS"],
+    tags: ["React", "Node.js", "PostgreSQL", "Machine Learning", "Vercel", ],
     imageUrl: "/Event-Management.PNG",
     link: "https://event-management-system-9qnx.vercel.app/",
+    githubLink: "https://github.com/mu-subhan/Event-Management-System",
     type: "Full-Stack Application",
-    highlights: ["ML Algorithm", "Microservices", "Real-time Analytics"]
+    highlights: ["ML Algorithm", "TensorFlow", "Real-time Analytics"]
   },
   {
     title: "Cloudly Enterprise Storage",
     description: "Scalable cloud storage solution with real-time synchronization and advanced security features. Implements distributed architecture with automated failover, comprehensive API, and multi-tenant support.",
-    tags: ["Next.js", "TypeScript", "Appwrite", "WebRTC", "Redis", "PostgreSQL"],
+    tags: ["Next.js", "TypeScript", "Appwrite", "Redis",],
     imageUrl: "/Cloudly-store.PNG",
     link: "https://cloudly-store.vercel.app/",
+    githubLink: "https://github.com/mu-subhan/Google-Drive-Clone",
     type: "Cloud Infrastructure",
     highlights: ["Distributed System", "Real-time Sync", "Enterprise Security"]
   },
@@ -27,6 +29,7 @@ const projects = [
     tags: ["Next.js", "TypeScript", "Design System", "Performance Optimization"],
     imageUrl: "/xora.PNG",
     link: "https://xora-landing-page-kappa.vercel.app/",
+    githubLink: "https://github.com/mu-subhan/Xora-Landing-Page",
     type: "Frontend Architecture",
     highlights: ["Design System", "Performance", "Accessibility"]
   },
@@ -113,6 +116,7 @@ export default function Projects() {
                 description={project.description}
                 tags={project.tags}
                 link={project.link}
+                githubLink={project.githubLink}
                 imageUrl={project.imageUrl}
                 type={project.type}
                 highlights={project.highlights}

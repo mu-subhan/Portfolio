@@ -29,17 +29,33 @@ export default function Contact() {
   };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    // Simulate form submission (replace with your actual API call)
-    setTimeout(() => {
+  try {
+    const response = await fetch('/api/send', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
       setIsSuccess(true);
       setFormData({ name: '', email: '', subject: '', message: '', projectType: 'consultation' });
       setTimeout(() => setIsSuccess(false), 4000);
-      setIsSubmitting(false);
-    }, 1500);
-  };
+    } else {
+      console.error('Failed to send message');
+      alert('Failed to send message. Please try again later.');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    alert('An error occurred. Please try again later.');
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   // const contactInfo = [
   //   {

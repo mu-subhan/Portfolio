@@ -8,7 +8,7 @@ export default function Footer() {
   const socialLinks = [
     { icon: <FaGithub />, url: 'https://github.com/mu-subhan', label: 'GitHub' },
     { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/muhammad-subhan-321821231/', label: 'LinkedIn' },
-    { icon: <FaEnvelope />, url: 'mailto:muhammadsubhan8934@gmail.com', label: 'Email' },
+    // { icon: <FaEnvelope />, url: 'mailto:muhammadsubhan8934@gmail.com', label: 'Email' },
   ];
 
   const quickLinks = [
@@ -32,9 +32,15 @@ export default function Footer() {
           <h3 className="text-xl font-bold mb-2">Muhammad Subhan</h3>
           <p className="text-slate-400 mb-4">Software Engineer</p>
           <div className="space-y-1 text-slate-400">
-            <p className="flex items-center gap-2"><FaEnvelope /> muhammadsubhan8934@gmail.com</p>
-            <p className="flex items-center gap-2"><FaMapMarkerAlt /> Lahore, Pakistan</p>
-            <p className="flex items-center gap-2"><FaPhone /> Open to Work</p>
+            <p className="flex items-center gap-2">
+              <FaEnvelope /> <a href="mailto:muhammadsubhan8934@gmail.com">muhammadsubhan8934@gmail.com</a>
+            </p>
+            <p className="flex items-center gap-2">
+              <FaMapMarkerAlt /> Lahore, Pakistan
+            </p>
+            <p className="flex items-center gap-2">
+              <FaPhone /> Open to Work
+            </p>
           </div>
         </div>
 
