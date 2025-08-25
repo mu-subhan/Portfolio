@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import { FiDownload, FiArrowRight, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
   const handleScrollToProjects = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -161,13 +162,8 @@ export default function Hero() {
                 >
                   <FiLinkedin size={20} />
                 </motion.a>
-                <motion.a
-                  href="mailto:your.email@example.com"
-                  whileHover={{ scale: 1.1, y: -2 }}
-                  className="p-3 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 transition-all duration-200"
-                >
-                  <FiMail size={20} />
-                </motion.a>
+               
+              
               </div>
             </motion.div>
           </motion.div>
@@ -179,7 +175,9 @@ export default function Hero() {
             animate={{ opacity: 1, scale: 1, rotate: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           >
-            <div className="relative">
+           <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-80 lg:h-80 xl:w-96 xl:h-96">
+
+
               {/* Main Image */}
               <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-80 lg:h-80 xl:w-96 xl:h-96">
                 <motion.div
@@ -215,6 +213,19 @@ export default function Hero() {
               >
                 <div className="text-xl">💻</div>
               </motion.div>
+              <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-end">
+   <Link
+   href='/experience'
+   className='bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold shadow-lg hover:shadow-xl flex items-center justify-center gap-2'>
+     View Experience
+   </Link>
+    <Link
+    href='my-story'
+    className='group flex items-center justify-center gap-2 border-2 border-slate-300 hover:border-slate-900 px-8 py-4 rounded-lg transition-all duration-300 text-slate-700 hover:text-slate-900 font-semibold hover:bg-slate-50'
+    >
+      About My Journey
+    </Link>
+  </div>
             </div>
           </motion.div>
         </div>
