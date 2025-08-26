@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 const projects = [
   {
     title: "AI-Powered Volunteer Matching System",
-    description: "Enterprise-grade matching platform leveraging machine learning algorithms to optimize volunteer-role assignments. Built with microservices architecture, featuring real-time analytics dashboard and automated performance optimization.",
+    description: "This platform leverages machine learning to optimize how volunteers are assigned to roles, ensuring better fit, higher engagement, and improved efficiency. The system analyzes user profiles, skillsets, and availability using a TensorFlow-based model. Built with a modern web stack, the platform supports real-time insights and a seamless user experience.",
     tags: ["React", "Node.js", "PostgreSQL", "Machine Learning", "Vercel", ],
     imageUrl: "/Event-Management.PNG",
     link: "https://event-management-system-9qnx.vercel.app/",
@@ -14,8 +14,8 @@ const projects = [
     highlights: ["ML Algorithm", "TensorFlow", "Real-time Analytics"]
   },
   {
-    title: "Cloudly Enterprise Storage",
-    description: "Scalable cloud storage solution with real-time synchronization and advanced security features. Implements distributed architecture with automated failover, comprehensive API, and multi-tenant support.",
+    title: "Cloudly Storage",
+    description: "Developed a cloud-based storage platform that allows users to securely upload, edit, delete, and share files in real-time. The system is designed with a distributed architecture for scalability and includes advanced security protocols to ensure data integrity and privacy.",
     tags: ["Next.js", "TypeScript", "Appwrite", "Redis",],
     imageUrl: "/Cloudly-store.PNG",
     link: "https://cloudly-store.vercel.app/",
@@ -24,9 +24,9 @@ const projects = [
     highlights: ["Distributed System", "Real-time Sync", "Enterprise Security"]
   },
   {
-    title: "XORA Design System & Platform",
-    description: "Complete design system implementation with component library and marketing platform. Features advanced responsive architecture, performance optimization, and accessibility compliance (WCAG 2.1).",
-    tags: ["Next.js", "TypeScript", "Design System", "Performance Optimization"],
+    title: "XORA Design",
+    description: "A modern, responsive landing page cloned from the XORA project. This page showcases a clean UI, reusable components, and a performance-optimized layout ideal for marketing and product promotion. Built with accessibility in mind and optimized for all screen sizes.",
+    tags: ["Next.js", "TypeScript", "Performance Optimization"],
     imageUrl: "/xora.PNG",
     link: "https://xora-landing-page-kappa.vercel.app/",
     githubLink: "https://github.com/mu-subhan/Xora-Landing-Page",
