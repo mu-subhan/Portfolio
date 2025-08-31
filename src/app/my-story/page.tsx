@@ -25,9 +25,14 @@ const MyStory = () => {
             <h2 className="text-3xl font-bold text-slate-900">About Me</h2>
           </div>
           <div className="bg-gray-50 p-8 rounded-lg">
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              I am <span className="font-semibold text-slate-900">Muhammad Subhan</span>, a passionate Software Engineer from Lahore, Pakistan. I recently graduated with a degree in Software Engineering from the University of Education .
-            </p>
+<p className="text-lg text-gray-700 leading-relaxed mb-4">
+  I am <span className="font-semibold text-slate-900">Muhammad Subhan</span>, a passionate 
+  <strong> Software Engineer </strong> specializing in the 
+  <strong> MERN Stack and modern frontend frameworks </strong>.  
+  I thrive on solving problems, building scalable applications, 
+  and exploring how technology can create real-world impact.
+</p>
+
             <p className="text-lg text-gray-700 leading-relaxed">
               I chose this field because of my curiosity about how software really works—what goes on behind the screen, how systems are built, and how they impact people&apos;s daily lives. From the beginning, T&apos;ve always been eager to learn new technologies and explore their potential to solve real-world problems.
             </p>
@@ -65,10 +70,10 @@ const MyStory = () => {
           </div>
           <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
-              After HTML and CSS, I moved to JavaScript, which challenged me with deeper questions: <em>Why do we need it? How does it really work?</em> I spent time experimenting, joined a university bootcamp, and started building projects. These projects solidified my JavaScript skills, and soon, I transitioned into React.js for building modern, dynamic applications.
+              After HTML and CSS, I moved to JavaScript, which challenged me with deeper questions: <em className='font-semibold'>Why do we need it? How does it really work?</em> I spent time experimenting, joined a university bootcamp, and started building projects. These projects solidified my JavaScript skills, and soon, I transitioned into React.js for building modern, dynamic applications.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Later, I expanded into backend technologies like Node.js, Express.js, and MongoDB, allowing me to become a MERN Stack developer. During this phase, I also got the chance to explore AI and Machine Learning during a 6-week fellowship.
+              Later, I expanded into backend technologies like <strong>Node.js, Express.js, and MongoDB,</strong>  allowing me to become a MERN Stack developer. During this phase, I also got the chance to explore AI and Machine Learning during a <strong>6-week fellowship</strong>.
             </p>
             <div className="bg-green-50 p-6 rounded-lg border border-green-200">
               <div className="flex items-center mb-3">
@@ -99,9 +104,11 @@ const MyStory = () => {
                 <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">MERN Stack Intern</h3>
                   <p className="text-blue-600 font-medium mb-3">Wanile Technology • 3 months</p>
-                  <p className="text-gray-700">
-                    Contributed to live projects such as a Hotel Management System (HMS) by developing frontend pages in React and collaborating with the team on other applications.
-                  </p>
+                 <p className="text-gray-700">
+  At <strong>Wanile Technology</strong>, I developed scalable modules 
+  for a Hospital Management System using <strong>React.js and Next.js</strong>.  
+  This improved UI responsiveness and enhanced user workflows.
+</p>
                 </div>
               </div>
 
@@ -111,9 +118,13 @@ const MyStory = () => {
                 <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-sm">
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">Junior Software Engineer</h3>
                   <p className="text-blue-600 font-medium mb-3">DigiU • Current</p>
-                  <p className="text-gray-700 mb-3">
-                    Expanded my expertise beyond MERN by working with Python. I contributed to DigiU&apos;s product Digi Collect, where I handled API integrations, cron jobs, debugging, and maintaining the product.
-                  </p>
+                 <p className="text-gray-700">
+  At <strong>DigiU</strong>, I worked on <strong>Digi Collect</strong> — 
+  handling API integrations, optimizing cron jobs, and fixing 
+  production-level bugs. Gained strong exposure to 
+  <strong> Python and backend systems </strong> in a 
+  high-impact environment.
+</p>
                   <p className="text-gray-600 text-sm italic">
                     This role taught me how to manage production-level code and ensure reliability at scale.
                   </p>

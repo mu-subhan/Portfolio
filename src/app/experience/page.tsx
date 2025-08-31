@@ -10,7 +10,8 @@ const experiences = [
     duration: 'April 2024 – July 2024',
     location: 'Remote',
     status: 'Recent',
-    description: 'Contributed to the development and maintenance of Digi Collect, a production-level data collection platform serving enterprise clients.',
+   description: 'Contributed to the development and maintenance of Digi Collect, a production-level data collection platform serving enterprise clients. Worked on API integrations, cron job automation, and bug fixing, ensuring system reliability and scalability while enhancing overall product performance.',
+
     responsibilities: [
       'Architected and implemented RESTful API integrations for third-party services',
       'Designed and deployed automated cron job systems for data processing workflows',
@@ -35,7 +36,7 @@ const experiences = [
     duration: 'June 2023 – March 2024',
     location: 'Hybrid',
     status: 'Long-term',
-    description: 'Developed comprehensive Hotel Management System (HMS) components, focusing on scalable frontend architecture and seamless user experiences.',
+    description: 'Developed and optimized key components of a Hotel Management System (HMS), focusing on building a scalable and maintainable frontend architecture with React.js and Next.js. Collaborated with the backend team to ensure seamless integration, resulting in improved user workflows and a smoother customer experience.',
     responsibilities: [
       'Engineered responsive React.js components for complex hotel workflows',
       'Built full-stack applications using Next.js with server-side rendering optimization',

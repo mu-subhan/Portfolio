@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { FiDownload, FiArrowRight, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiDownload, FiArrowRight, FiGithub, FiLinkedin } from 'react-icons/fi';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -76,6 +76,7 @@ export default function Hero() {
                   transition={{ delay: 0.8, duration: 0.8 }}
                 />
               </span>
+              
             </motion.h1>
 
             <motion.div variants={itemVariants} className="space-y-4 mb-8">
@@ -214,7 +215,7 @@ export default function Hero() {
                 <div className="text-xl">💻</div>
               </motion.div>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-end">
-   <Link
+   {/* <Link
    href='/experience'
    className='bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold shadow-lg hover:shadow-xl flex items-center justify-center gap-2'>
      View Experience
@@ -224,8 +225,8 @@ export default function Hero() {
     className='group flex items-center justify-center gap-2 border-2 border-slate-300 hover:border-slate-900 px-8 py-4 rounded-lg transition-all duration-300 text-slate-700 hover:text-slate-900 font-semibold hover:bg-slate-50'
     >
       About My Journey
-    </Link>
-  </div>
+    </Link>*/}
+  </div> 
             </div>
           </motion.div>
         </div>
