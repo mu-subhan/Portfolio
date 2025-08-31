@@ -34,7 +34,7 @@ const MyStory = () => {
 </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              I chose this field because of my curiosity about how software really works—what goes on behind the screen, how systems are built, and how they impact people&apos;s daily lives. From the beginning, T&apos;ve always been eager to learn new technologies and explore their potential to solve real-world problems.
+              I chose this field because of my curiosity about how software really works what goes on behind the screen, how systems are built, and how they impact people&apos;s daily lives. From the beginning, T&apos;ve always been eager to learn new technologies and explore their potential to solve real-world problems.
             </p>
           </div>
         </section>
@@ -49,7 +49,7 @@ const MyStory = () => {
             <blockquote className="text-lg italic text-slate-800">
               Be the kind of Software Engineer who creates change and builds something useful for people.
             </blockquote>
-            <p className="text-sm text-gray-600 mt-2">— A teacher who changed my perspective</p>
+            <p className="text-sm text-gray-600 mt-2"> A teacher who changed my perspective</p>
           </div>
           <p className="text-gray-700 leading-relaxed mb-4">
             That single sentence inspired me to look at programming not just as a subject, but as a path to impact lives.
@@ -58,7 +58,7 @@ const MyStory = () => {
             I began with C programming during my I.C.S. studies. It was my first experience with logic and coding, and it built my foundation. Later, at university, I was mentored by seniors who motivated me to start learning Web Development.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            At first, I struggled with consistency — things felt difficult to understand and problems seemed overwhelming. But with guidance, I learned the value of daily practice in small steps. Slowly, I gained confidence by creating my first static pages using HTML and CSS, which gave me a sense of achievement and made me even more curious about the field.
+            At first, I struggled with consistency  things felt difficult to understand and problems seemed overwhelming. But with guidance, I learned the value of daily practice in small steps. Slowly, I gained confidence by creating my first static pages using HTML and CSS, which gave me a sense of achievement and made me even more curious about the field.
           </p>
         </section>
 
@@ -119,11 +119,11 @@ const MyStory = () => {
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">Junior Software Engineer</h3>
                   <p className="text-blue-600 font-medium mb-3">DigiU • Current</p>
                  <p className="text-gray-700">
-  At <strong>DigiU</strong>, I worked on <strong>Digi Collect</strong> — 
+  At <strong>DigiU</strong>, I worked on <strong>Digi Collect</strong> 
   handling API integrations, optimizing cron jobs, and fixing 
   production-level bugs. Gained strong exposure to 
   <strong> Python and backend systems </strong> in a 
-  high-impact environment.
+  high impact environment.
 </p>
                   <p className="text-gray-600 text-sm italic">
                     This role taught me how to manage production-level code and ensure reliability at scale.
@@ -134,7 +134,7 @@ const MyStory = () => {
 
             <div className="bg-blue-50 p-6 rounded-lg">
               <p className="text-gray-700">
-                <strong>Community Impact:</strong> I am also a Core Team Member at Dev Weekend, where I mentor juniors, share my learnings, and help guide aspiring developers — a way of giving back the same mentorship that once guided me.
+                <strong>Community Impact:</strong> I am also a Core Team Member at Dev Weekend, where I mentor juniors, share my learnings, and help guide aspiring developers  a way of giving back the same mentorship that once guided me.
               </p>
             </div>
           </div>
