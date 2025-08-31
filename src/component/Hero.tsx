@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { FiDownload, FiArrowRight, FiGithub, FiLinkedin } from 'react-icons/fi';
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 export default function Hero() {
   const handleScrollToProjects = (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -66,9 +66,9 @@ export default function Hero() {
               variants={itemVariants}
               className="text-4xl md:text-5xl xl:text-6xl font-bold leading-[1.1] mb-6 text-slate-900"
             >
-              Building Scalable{' '}
+             Elevate Your Business{' '}
               <span className="relative">
-                <span className="text-blue-600">Software Solutions</span>
+                <span className="text-blue-600">with Scalable Tech</span>
                 <motion.div
                   className="absolute -bottom-2 left-0 right-0 h-1 bg-blue-200/60 rounded-full"
                   initial={{ scaleX: 0 }}

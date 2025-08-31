@@ -146,7 +146,7 @@ const MyStory = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Frontend Development</h3>
-              <p className="text-gray-700">React.js, Next.js, Tailwind CSS, UI/UX</p>
+              <p className="text-gray-700">React.js, Next.js, Tailwind CSS, UI/UX, Framer Motion</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Backend Development</h3>
@@ -154,7 +154,7 @@ const MyStory = () => {
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Databases</h3>
-              <p className="text-gray-700">MongoDB, MySQL</p>
+              <p className="text-gray-700">MongoDB, MySQL, PostgreSQL, SQLite, MongoDB</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Other Strengths</h3>
